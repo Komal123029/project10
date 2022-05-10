@@ -1,0 +1,28 @@
+for(var row=50; row <400;row=row+50)
+{
+var carrot = createSprite(row, 50, 20, 20);
+carrot.shapeColor="orange";
+carrot.setAnimation("carrot");
+
+var brinjal = createSprite(row, 125, 20, 20);
+brinjal.shapeColor="purpule";
+brinjal.setAnimation("brinjal");
+
+var capcisum = createSprite(row, 200, 20, 20);
+capcisum.shapeColor="green";
+capcisum.setAnimation("capcisum");
+
+var tomato = createSprite(row, 275, 20, 20);
+tomato.shapeColor="red";
+tomato.setAnimation("tomato");
+
+var onion = createSprite(row, 350, 20, 20);
+onion.shapeColor="pink";
+onion.setAnimation("onion");
+}
+
+function draw() {
+background("brown");
+drawSprites();
+
+}
